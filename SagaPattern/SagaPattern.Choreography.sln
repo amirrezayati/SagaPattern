@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaPattern.CatalogApi", "SagaPattern.CatalogApi\SagaPattern.CatalogApi.csproj", "{84A2C865-AF18-4FED-9007-05E5AC1AE953}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaPattern.Choreography.CatalogApi", "SagaPattern.CatalogApi\SagaPattern.Choreography.CatalogApi.csproj", "{84A2C865-AF18-4FED-9007-05E5AC1AE953}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaPattern.OrderApi", "SagaPattern.OrderApi\SagaPattern.OrderApi.csproj", "{05D990CF-C259-40AB-8286-E1C389FFB1E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaPattern.Choreography.OrderApi", "SagaPattern.OrderApi\SagaPattern.Choreography.OrderApi.csproj", "{05D990CF-C259-40AB-8286-E1C389FFB1E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaPattern.Shared", "SagaPattern.Shared\SagaPattern.Shared.csproj", "{3078968C-2310-47F2-BAF2-CBDC2403D5BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaPattern.Choreography.Shared", "SagaPattern.Shared\SagaPattern.Choreography.Shared.csproj", "{3078968C-2310-47F2-BAF2-CBDC2403D5BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
