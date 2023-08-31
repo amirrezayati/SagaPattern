@@ -2,9 +2,14 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace SagaPattern.Choreography.OrderApi.Models;
-[Table(nameof(OrderItem))]
 public class OrderItem
 {
+    public OrderItem()
+    {
+        OrderId = 1;
+        ProductId = 1;
+        UnitPrice = 500;
+    }
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
