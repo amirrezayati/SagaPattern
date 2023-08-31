@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaPattern.CatalogApi", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaPattern.OrderApi", "SagaPattern.OrderApi\SagaPattern.OrderApi.csproj", "{05D990CF-C259-40AB-8286-E1C389FFB1E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaPattern.Shared", "SagaPattern.Shared\SagaPattern.Shared.csproj", "{3078968C-2310-47F2-BAF2-CBDC2403D5BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{05D990CF-C259-40AB-8286-E1C389FFB1E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05D990CF-C259-40AB-8286-E1C389FFB1E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05D990CF-C259-40AB-8286-E1C389FFB1E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3078968C-2310-47F2-BAF2-CBDC2403D5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3078968C-2310-47F2-BAF2-CBDC2403D5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3078968C-2310-47F2-BAF2-CBDC2403D5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3078968C-2310-47F2-BAF2-CBDC2403D5BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
